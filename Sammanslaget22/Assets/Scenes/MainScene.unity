@@ -429,8 +429,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e747dbdc024f040ac82747b592b1ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CameraInterp: 0.9
-  moveAnim: {fileID: 0}
+  speedMultiplier: 0.06
+  drag: 0.5
+  maxVelocity: 0.1
+  moveAnimClip: {fileID: 7400000, guid: 0a9b831d71618e54c8acd2c9b763bc10, type: 2}
 --- !u!95 &963194230
 Animator:
   serializedVersion: 3

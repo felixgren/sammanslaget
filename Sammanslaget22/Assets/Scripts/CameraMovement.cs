@@ -4,25 +4,32 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
+	[Range(0, 0.1f)]
 	[SerializeField]
 	private float speedMultiplier = 0.9f;
+	
+	[Range(0, 1f)]
 	[SerializeField]
-	private float drag = 0.9f;
+	private float drag;
 
 	private float currentTimeStep = 0f;
 	private float totalTimeStep = 1f;
 	private float velocity;
+
+	[SerializeField]
 	private float maxVelocity = 10f;
 
 	[SerializeField]
-	private Animation moveAnim;
+	private AnimationClip moveAnimClip;
+	//private Animation moveAnim;
 
 	private Animator moveAnimController;
 
 	private void Start() {
 		moveAnimController = GetComponent<Animator>();
 		moveAnimController.speed = 0;
-		totalTimeStep = moveAnim.clip.length;
+		totalTimeStep = moveAnimClip.length;
+		
 	}
 
 	private void Update() {
@@ -33,13 +40,17 @@ public class CameraMovement : MonoBehaviour
 		}
 		else {
 			float direction = Mathf.Sign(velocity);
-			velocity += drag * -direction;
+			velocity += (drag * 0.001f) * -direction;
 		}
 
+		Debug.Log("Vel: " + velocity);
+
 		currentTimeStep += velocity * speedMultiplier;
+		Debug.Log("currentTime: " + currentTimeStep);
+		Debug.Log("totalTime: " + totalTimeStep);
+
 
 		var normalizedStep = currentTimeStep / totalTimeStep;
-		//Debug.Log(scrollAxis);
 		moveAnimController.Play("Move", -1, normalizedStep);
 	}
 }
