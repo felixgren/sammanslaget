@@ -21,16 +21,20 @@ public class SpeechBubble : MonoBehaviour
 
     private TextMeshPro textMeshPro;
     private Camera mainCamera;
-    private string textValue;
+    private string defaultText = "";
+    private string printedText = "";
+
     private Vector3 scaleValue;
+    private Tweener textTweener;
 
 	void Start()
     {
         textMeshPro = GetComponentInChildren<TextMeshPro>();
         mainCamera = Camera.main;
         scaleValue = transform.localScale;
-        textValue = textMeshPro.text;
+        defaultText = textMeshPro.text;
         gameObject.SetActive(false);
+        textMeshPro.text = "";
     }
 
 	private void Update() {
@@ -40,13 +44,19 @@ public class SpeechBubble : MonoBehaviour
 
 	private void OnDisable() {
         transform.localScale = scaleValue;
-		DOTween.Clear();
+
+        if (textTweener != null && textTweener.IsPlaying()) {
+            printedText = textMeshPro.text;
+		}
+
+        DOTween.Clear();
 	}
 
 	public void PrintText() {
-        textMeshPro.text = "";
+
+        Debug.Log(printedText);
         transform.DOScale(transform.localScale * wobbleMultiplier, wobbleDuration).SetLoops(5, LoopType.Yoyo).SetEase(wobbleEasing);
-        textMeshPro.DOText(textValue, textDuration, true).SetEase(textEasing);
+        textTweener = textMeshPro.DOText(defaultText, textDuration, true).SetEase(textEasing).ChangeStartValue(printedText);
     }
 
 
