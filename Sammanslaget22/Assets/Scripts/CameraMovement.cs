@@ -28,7 +28,6 @@ public class CameraMovement : MonoBehaviour
 		moveAnimController = GetComponent<Animator>();
 		moveAnimController.speed = 0;
 		totalTimeStep = moveAnimClip.length;
-		
 	}
 
 	private void Update() {
@@ -42,11 +41,9 @@ public class CameraMovement : MonoBehaviour
 			velocity += (drag * 0.001f) * -direction;
 		}
 
-
 		currentTimeStep += velocity * speedMultiplier;
 
 		var normalizedStep = currentTimeStep / totalTimeStep;
-		Debug.Log(normalizedStep);
 		moveAnimController.Play("Move", -1, normalizedStep);
 	}
 }
