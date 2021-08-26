@@ -27,11 +27,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/latestbuild.loader.js";
+      var loaderUrl = buildUrl + "/ourhome-build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/latestbuild.data",
-        frameworkUrl: buildUrl + "/latestbuild.framework.js",
-        codeUrl: buildUrl + "/latestbuild.wasm",
+        dataUrl: buildUrl + "/ourhome-build.data.gz",
+        frameworkUrl: buildUrl + "/ourhome-build.framework.js.gz",
+        codeUrl: buildUrl + "/ourhome-build.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Sammanslaget22",
@@ -65,7 +65,7 @@
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
-      canvas.style.background = "url('" + buildUrl + "/latestbuild.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/ourhome-build.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
