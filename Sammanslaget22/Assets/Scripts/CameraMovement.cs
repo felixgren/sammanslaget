@@ -12,18 +12,17 @@ public class CameraMovement : MonoBehaviour
 	[SerializeField]
 	private float drag;
 
-	private float currentTimeStep = 0f;
-	private float totalTimeStep = 1f;
-	private float velocity;
-
 	[SerializeField]
 	private float maxVelocity = 10f;
 
 	[SerializeField]
 	private AnimationClip moveAnimClip;
-	//private Animation moveAnim;
 
 	private Animator moveAnimController;
+	private float currentTimeStep = 0f;
+	private float totalTimeStep = 1f;
+	private float velocity;
+
 
 	private void Start() {
 		moveAnimController = GetComponent<Animator>();
@@ -43,14 +42,11 @@ public class CameraMovement : MonoBehaviour
 			velocity += (drag * 0.001f) * -direction;
 		}
 
-		Debug.Log("Vel: " + velocity);
 
 		currentTimeStep += velocity * speedMultiplier;
-		Debug.Log("currentTime: " + currentTimeStep);
-		Debug.Log("totalTime: " + totalTimeStep);
-
 
 		var normalizedStep = currentTimeStep / totalTimeStep;
+		Debug.Log(normalizedStep);
 		moveAnimController.Play("Move", -1, normalizedStep);
 	}
 }
