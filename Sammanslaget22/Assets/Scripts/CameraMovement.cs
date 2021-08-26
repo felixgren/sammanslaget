@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-	[Range(0, 0.1f)]
+	[Range(0, 1f)]
 	[SerializeField]
 	private float speedMultiplier = 0.9f;
 	
@@ -38,9 +38,15 @@ public class CameraMovement : MonoBehaviour
 		velocity += (drag * 0.01f) * -direction;
 
 		currentTimeStep += velocity * speedMultiplier;
+		currentTimeStep = Mathf.Clamp(currentTimeStep, 0, totalTimeStep);
+
 
 		var normalizedStep =  Mathf.Clamp(currentTimeStep / totalTimeStep, 0, 1);
 
 		moveAnimController.Play("Move", -1, normalizedStep);
+
+		if (currentTimeStep <= 0 || currentTimeStep >= totalTimeStep)
+			velocity = 0;
+		
 	}
 }
