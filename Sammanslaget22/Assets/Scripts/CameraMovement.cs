@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-	[Range(0, 0.1f)]
+	[Range(0, 1f)]
 	[SerializeField]
 	private float speedMultiplier = 0.9f;
 	
@@ -30,20 +30,23 @@ public class CameraMovement : MonoBehaviour
 		totalTimeStep = moveAnimClip.length;
 	}
 
-	private void Update() {
-		float scrollAxis = Input.GetAxis("Mouse ScrollWheel");
+	private void FixedUpdate() {
+		float scrollAxis = Input.GetAxisRaw("Mouse ScrollWheel");
 
-		if(scrollAxis != 0) {
-			velocity = Mathf.Clamp(scrollAxis + velocity, -maxVelocity, maxVelocity);
-		}
-		else {
-			float direction = Mathf.Sign(velocity);
-			velocity += (drag * 0.001f) * -direction;
-		}
+		velocity = Mathf.Clamp(scrollAxis + velocity, -maxVelocity, maxVelocity);
+		float direction = Mathf.Sign(velocity);
+		velocity += (drag * 0.01f) * -direction;
 
 		currentTimeStep += velocity * speedMultiplier;
+		currentTimeStep = Mathf.Clamp(currentTimeStep, 0, totalTimeStep);
 
-		var normalizedStep = currentTimeStep / totalTimeStep;
+
+		var normalizedStep =  Mathf.Clamp(currentTimeStep / totalTimeStep, 0, 1);
+
 		moveAnimController.Play("Move", -1, normalizedStep);
+
+		if (currentTimeStep <= 0 || currentTimeStep >= totalTimeStep)
+			velocity = 0;
+		
 	}
 }
