@@ -506,6 +506,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 202197636}
     m_Modifications:
+    - target: {fileID: 109201868953635, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 174.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 109201868953635, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 141.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_text
+      value: "K\xE4nslan av trygghet och v\xE4rdighet \xE4r n\xE5got som man inte
+        borde beh\xF6va s\xE4tta ett pris p\xE5, men tyv\xE4rr \xE4r v\xE4rlden inte
+        perfekt. Genom att hoppa \xF6ver lite vardagslyx n\xE5gon g\xE5ng i m\xE5naden
+        kan man g\xF6ra skillnad f\xF6r en familj."
+      objectReference: {fileID: 0}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor.b
       value: 1
@@ -529,6 +544,10 @@ PrefabInstance:
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4991868485850345679, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 132.4
       objectReference: {fileID: 0}
     - target: {fileID: 5146284435830311943, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_Sprite
@@ -641,6 +660,18 @@ PrefabInstance:
     - target: {fileID: 9010845269026066037, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010845269026066042, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: textEasing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010845269026066042, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: textDuration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010845269026066042, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: wobbleEasing
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
@@ -1270,6 +1301,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 202197636}
     m_Modifications:
+    - target: {fileID: 109201868953635, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 160.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_text
+      value: "N\xE5got annat som de flesta tar f\xF6r givet \xE4r helt enkelt tak
+        \xF6ver huvudet, en s\xE4ng att sova i och framf\xF6rallt; k\xE4nslan av
+        trygghet. 600 kr, kostnaden f\xF6r en till fin blus eller skjorta \xE4r det
+        som beh\xF6vs f\xF6r att s\xE4tta tak \xF6ver huvudet och ge Maria och hennes
+        dotter ett rum med en varm s\xE4ng, mat och chansen att prata med m\xE4nniskor
+        som bryr sig. De f\xE5r en m\xF6jlighet att k\xE4nna sig trygga och omh\xE4ndertagna
+        f\xF6r en natt.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_fontSize
+      value: 57.9
+      objectReference: {fileID: 0}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor.b
       value: 1
@@ -1281,6 +1330,10 @@ PrefabInstance:
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 57.9
       objectReference: {fileID: 0}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_sharedMaterial
@@ -1296,7 +1349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4991868485850345679, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 13.2
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 5146284435830311943, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_Sprite
@@ -1396,7 +1449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9010845269026066037, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.086
+      value: 0.623
       objectReference: {fileID: 0}
     - target: {fileID: 9010845269026066037, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1409,6 +1462,18 @@ PrefabInstance:
     - target: {fileID: 9010845269026066037, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010845269026066042, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: textEasing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010845269026066042, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: textDuration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010845269026066042, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: wobbleEasing
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
@@ -1610,6 +1675,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 202197636}
     m_Modifications:
+    - target: {fileID: 109201868953635, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 155.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 109201868953635, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 155.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_text
+      value: "Hur mycket kostar din morgonkaffe? Hur mycket skulle du spara om du
+        valde att ta den p\xE5 jobbet ist\xE4llet f\xF6r p\xE5 v\xE4gen? Tillr\xE4ckligt
+        mycket f\xF6r att ge Maria och hennes dotter varsin frukost under tak \xE4r
+        svaret. Endast 20 kr kostar en m\xE4ttande frukost f\xF6r en person, d\xE4r
+        de f\xE5r en chans att komma in i v\xE4rmen och f\xE5 energi att ta sig an
+        dagen.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_fontSize
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor.b
       value: 1
@@ -1623,6 +1709,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 6158663860067436810, guid: 0d3288c4e1ef0054c84ca099bf3a7a27, type: 2}
@@ -1633,6 +1723,14 @@ PrefabInstance:
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4991868485850345679, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 126.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4991868485850345679, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 37.6
       objectReference: {fileID: 0}
     - target: {fileID: 5146284435830311943, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_Sprite
@@ -1708,7 +1806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9010845269026066037, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.588
+      value: 6.387
       objectReference: {fileID: 0}
     - target: {fileID: 9010845269026066037, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1728,11 +1826,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9010845269026066037, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.492
+      value: 0.265
       objectReference: {fileID: 0}
     - target: {fileID: 9010845269026066037, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.39
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 9010845269026066037, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1745,6 +1843,18 @@ PrefabInstance:
     - target: {fileID: 9010845269026066037, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010845269026066042, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: textEasing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010845269026066042, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: textDuration
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010845269026066042, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: wobbleEasing
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
@@ -5117,6 +5227,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 202197636}
     m_Modifications:
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_text
+      value: "Detta \xE4r Maria, hon representerar hundratals ensamst\xE5ende mammor
+        som av olika anledningar inte kan f\xF6rs\xF6rja sina barn. Vi skall visa
+        hur du, genom att avst\xE5 fr\xE5n lite vardagslyx kan \xE4ndra hennes liv."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_fontSize
+      value: 61.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -5127,6 +5247,10 @@ PrefabInstance:
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 61.4
       objectReference: {fileID: 0}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_sharedMaterial
@@ -5251,6 +5375,18 @@ PrefabInstance:
     - target: {fileID: 9010845269026066037, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010845269026066042, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: textEasing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010845269026066042, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: textDuration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010845269026066042, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: wobbleEasing
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb9491cd076caff499efd0f470938f6f, type: 3}

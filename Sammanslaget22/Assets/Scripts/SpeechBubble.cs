@@ -15,8 +15,10 @@ public class SpeechBubble : MonoBehaviour
     private float wobbleDuration = 2f;
    
     [SerializeField]
-    private Ease easing;
-    
+    private Ease wobbleEasing;
+    [SerializeField]
+    private Ease textEasing;
+
     private TextMeshPro textMeshPro;
     private Camera mainCamera;
     private string textValue;
@@ -43,8 +45,8 @@ public class SpeechBubble : MonoBehaviour
 
 	public void PrintText() {
         textMeshPro.text = "";
-        transform.DOScale(transform.localScale * wobbleMultiplier, wobbleDuration).SetLoops(5, LoopType.Yoyo).SetEase(easing);
-        textMeshPro.DOText(textValue, textDuration);
+        transform.DOScale(transform.localScale * wobbleMultiplier, wobbleDuration).SetLoops(5, LoopType.Yoyo).SetEase(wobbleEasing);
+        textMeshPro.DOText(textValue, textDuration, true).SetEase(textEasing);
     }
 
 
