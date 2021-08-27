@@ -210,6 +210,11 @@
   line-height: 24px;
 }
 
+button a {
+  color: white;
+  text-decoration: none;
+}
+
 button {
   background-color: var(--saviors-orange);
   color: white;
