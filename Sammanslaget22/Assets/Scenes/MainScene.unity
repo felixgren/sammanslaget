@@ -694,6 +694,10 @@ PrefabInstance:
       value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -712,7 +716,7 @@ PrefabInstance:
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 6158663860067436810, guid: 0d3288c4e1ef0054c84ca099bf3a7a27, type: 2}
+      objectReference: {fileID: 7465554567068764163, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
@@ -740,7 +744,7 @@ PrefabInstance:
     - target: {fileID: 8861315008026869104, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 6158663860067436810, guid: 0d3288c4e1ef0054c84ca099bf3a7a27, type: 2}
+      objectReference: {fileID: 7465554567068764163, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
     - target: {fileID: 9010845269026066036, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_Name
       value: BubbleHouse
@@ -1396,6 +1400,10 @@ PrefabInstance:
       value: -17.449223
       objectReference: {fileID: 0}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -1414,7 +1422,7 @@ PrefabInstance:
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 6158663860067436810, guid: 0d3288c4e1ef0054c84ca099bf3a7a27, type: 2}
+      objectReference: {fileID: 7465554567068764163, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
@@ -1450,7 +1458,7 @@ PrefabInstance:
     - target: {fileID: 8861315008026869104, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 6158663860067436810, guid: 0d3288c4e1ef0054c84ca099bf3a7a27, type: 2}
+      objectReference: {fileID: 7465554567068764163, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
     - target: {fileID: 9010845269026066036, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_Name
       value: BubbleBed
@@ -1873,6 +1881,10 @@ PrefabInstance:
       value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -1891,7 +1903,7 @@ PrefabInstance:
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 6158663860067436810, guid: 0d3288c4e1ef0054c84ca099bf3a7a27, type: 2}
+      objectReference: {fileID: 7465554567068764163, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
@@ -1923,7 +1935,7 @@ PrefabInstance:
     - target: {fileID: 8861315008026869104, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 6158663860067436810, guid: 0d3288c4e1ef0054c84ca099bf3a7a27, type: 2}
+      objectReference: {fileID: 7465554567068764163, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
     - target: {fileID: 9010845269026066036, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_Name
       value: BubbleTable
@@ -2185,7 +2197,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -79.7, y: -33.5}
+  m_AnchoredPosition: {x: -65.3, y: -33.4}
   m_SizeDelta: {x: 319.09998, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1763056364
@@ -2210,8 +2222,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Scrolla upp och ner
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0d3288c4e1ef0054c84ca099bf3a7a27, type: 2}
-  m_sharedMaterial: {fileID: 6158663860067436810, guid: 0d3288c4e1ef0054c84ca099bf3a7a27, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
+  m_sharedMaterial: {fileID: 7465554567068764163, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6812,14 +6824,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_text
-      value: "Detta \xE4r Maria, hon representerar hundratals ensamst\xE5ende mammor
-        som av olika anledningar inte kan f\xF6rs\xF6rja sina barn. Vi skall visa
-        hur du, genom att avst\xE5 fr\xE5n lite vardagslyx kan \xE4ndra hennes liv."
+      value: "Maria representerar hundratals ensamst\xE5ende mammor \nsom av olika
+        anledningar har sv\xE5rt att f\xF6rs\xF6rja sina barn. \nAtt be om hj\xE4lp
+        upplevs ofta som skamligt, och att man har misslyckats som f\xF6r\xE4lder.
+        Tillsammans kan vi hj\xE4lpas \xE5t!"
       objectReference: {fileID: 0}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontSize
       value: 80
       objectReference: {fileID: 0}
+    - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor.b
       value: 1
@@ -6839,7 +6856,7 @@ PrefabInstance:
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 6158663860067436810, guid: 0d3288c4e1ef0054c84ca099bf3a7a27, type: 2}
+      objectReference: {fileID: 7465554567068764163, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
     - target: {fileID: 1542744291105384899, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
@@ -6875,7 +6892,7 @@ PrefabInstance:
     - target: {fileID: 8861315008026869104, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 6158663860067436810, guid: 0d3288c4e1ef0054c84ca099bf3a7a27, type: 2}
+      objectReference: {fileID: 7465554567068764163, guid: feb2ed409b2c8cc45931abc4931d681d, type: 2}
     - target: {fileID: 9010845269026066036, guid: eb9491cd076caff499efd0f470938f6f, type: 3}
       propertyPath: m_Name
       value: BubbleFamily
