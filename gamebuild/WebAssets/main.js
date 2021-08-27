@@ -8,7 +8,7 @@ const line3 = document.querySelector('.line-3');
 const menuLinks = document.querySelectorAll('.menu-links a');
 
 menuLinks.forEach((menuLink) => {
-    if(window.innerWidth <= 1350) {
+    if(window.innerWidth <= 1150) {
         menuLink.addEventListener('click', () => {
             overlayMobile.classList.toggle('overlay-visible');
             menuBar.classList.toggle('menu-bar-visible');

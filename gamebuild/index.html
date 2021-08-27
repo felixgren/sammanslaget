@@ -33,10 +33,10 @@
         <div class="menu-bar"></div>
         <div class="overlay">
           <div class="menu-links">
-            <a href="#start">start</a>
-            <a href="#info">om oss</a>
-            <a href="https://raddningsmissionen.se/gava">månadsgivare</a>
-            <a href="https://raddningsmissionen.se/engagera-dig">voluntärer</a>
+            <a href="#start">Start</a>
+            <a href="#donate">Månadsgivare</a>
+            <a href="#om-oss">Om oss</a>
+            <a href="#volunteer">Volontärer</a>
           </div>
           <div class="menu-socials-mobile">
             <a href="https://github.com/felixgren" target="_blank">
@@ -68,19 +68,69 @@
       </nav>
     </header>
 
-    <section id="start" class="hero">
-      <div class="hero-content">
-        <div class="hero-title">
-          <h2>Räddningsmissionen</h2>
-        </div>
-      </div>
+    <div class="hero" id="start">
+      <h2>Räddningsmissionen</h2>
+    </div>
 
+    <section class="donate" id="donate">
+      <h2>Ge en gåva - Bli månadsgivare </h2>
+      <p>Som månadsgivare till Räddningsmissionen stöttar du barn och vuxna i utsatta livssituationer, både med akuta insatser och långsiktiga projekt. Regelbundna gåvor via autogiro innebär att administrationen minskas och att en större del av varje gåva kan gå direkt till vårt arbete bland utsatta och hemlösa.</p>
+      <button>Ge din gåva 💕</button>
     </section>
 
      <!-- Info content -->
-     <section id="info" class="info-section">
-       <p>hejejej</p>
-    </section>
+     <section id="om-oss" class="om-oss">
+      <h2>Om oss</h2>
+      <div class="small-card-container">
+        <div class="small-card-wrapper">
+            <img src="./WebAssets/images/felix.png" alt="Workbench">
+            <p> Felix Östergren </p>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore laboriosam velit ratione explicabo, eligendi iusto, accusantium nemo ea sit non porro officiis laborum in quo tenetur, officia iure repellendus? </p>
+            <p> *I am a disclaimer </p>
+        </div>
+
+        <div class="small-card-wrapper">
+            <img src="./WebAssets/images/felix.png" alt="empty">
+            <p>  Title here! </p>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem distinctio, assumenda </p>
+            <!-- <p> *I am a disclaimer </p> -->
+        </div>
+
+        <div class="small-card-wrapper">
+            <img src="./WebAssets/images/felix.png" alt="empty">
+            <p>  Title here! </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae in ducimus optio repellendus nihil sint maxime ipsum praesentium soluta. </p>
+        </div>
+      </div>
+
+      <div class="small-card-container">
+        <div class="small-card-wrapper">
+            <img src="./WebAssets/images/felix.png" alt="empty">
+            <p>  Title here! </p>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi quia commodi dolorem. </p>
+            <p> *Hello there </p>
+        </div>
+
+        <div class="small-card-wrapper">
+            <img src="./WebAssets/images/felix.png" alt="empty">
+            <p>  Title here! </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p> *Hello there </p>
+        </div>
+
+        <div class="small-card-wrapper">
+            <img src="./WebAssets/images/felix.png" alt="empty">
+            <p>  Title here! </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa delectus iusto asperiores nihil vel quibusdam dolores cumque? </p>
+        </div>
+      </div>
+  </section>
+
+  <section class="volunteer" id="volunteer">
+    <h2>Följ med på vår resa - Bli volontär </h2>
+    <p>Har du möjlighet att ta ett volontäruppdrag? Vi finns över hela Sverige för att hjälpa människor i behov. Pandemin har fört med sig att många av våra redan engagerade volontärer inte kan utföra sina uppdrag som vanligt. Därför behövs du extra mycket just nu – både i våra vanliga verksamheter och i de krisinsatser vi gör för att avlasta samhället i coronakrisen.</p>
+    <button>Bli volontär 🙏</button>
+  </section>
 
 
     <div id="unity-container" class="unity-desktop">
@@ -133,6 +183,7 @@
         // and default/override low DPI mode on mobile browsers.
         config.devicePixelRatio = 1;
         mobileWarning.style.display = "block";
+
         setTimeout(() => {
           mobileWarning.style.display = "none";
         }, 5000);
