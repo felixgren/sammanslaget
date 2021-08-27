@@ -55,7 +55,7 @@ public class SpeechBubble : MonoBehaviour
 	public void PrintText() {
 
         Debug.Log(printedText);
-        transform.DOScale(transform.localScale * wobbleMultiplier, wobbleDuration).SetLoops(5, LoopType.Yoyo).SetEase(wobbleEasing);
+        //transform.DOScale(transform.localScale * wobbleMultiplier, wobbleDuration).SetLoops(5, LoopType.Yoyo).SetEase(wobbleEasing);
         textTweener = textMeshPro.DOText(defaultText, textDuration, true).SetEase(textEasing).ChangeStartValue(printedText);
     }
 

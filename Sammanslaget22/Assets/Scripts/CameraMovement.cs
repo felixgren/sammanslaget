@@ -40,7 +40,6 @@ public class CameraMovement : MonoBehaviour
 		currentTimeStep += velocity * speedMultiplier;
 		currentTimeStep = Mathf.Clamp(currentTimeStep, 0, totalTimeStep);
 
-
 		var normalizedStep =  Mathf.Clamp(currentTimeStep / totalTimeStep, 0, 1);
 
 		moveAnimController.Play("Move", -1, normalizedStep);
