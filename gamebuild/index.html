@@ -3,11 +3,86 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Sammanslaget22</title>
+    <title>Vårt hem</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="WebAssets/style.css">
+    <!-- Dosis font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <script defer data-domain="sammanslaget.vercel.app" src="https://plausible.io/js/plausible.js"></script>
   </head>
   <body>
+    <header>
+      <!-- Header content -->
+      <nav>
+        <!-- Navbar -->
+        <div class="burger">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+
+        <div class="menu-bar"></div>
+        <div class="overlay">
+          <div class="menu-links">
+            <a href="#start">start</a>
+            <a href="#info">om oss</a>
+            <a href="https://raddningsmissionen.se/gava">månadsgivare</a>
+            <a href="https://raddningsmissionen.se/engagera-dig">voluntärer</a>
+          </div>
+          <div class="menu-socials-mobile">
+            <a href="https://github.com/felixgren" target="_blank">
+              <object
+                data="./WebAssets/svg/github-social.svg"
+                type="image/svg+xml"
+              ></object>
+            </a>
+            <a
+              href="https://youtu.be/6o8zGVCVCWk"
+              target="_blank"
+            >
+              <object
+                data="./WebAssets/svg/fb-social.svg"
+                type="image/svg+xml"
+              ></object>
+            </a>
+            <a
+              href="https://www.instagram.com/yrgo_webbutvecklare/"
+              target="_blank"
+            >
+              <object
+                data="./WebAssets/svg/ig-social.svg"
+                type="image/svg+xml"
+              ></object>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="start" class="hero">
+      <div class="hero-content">
+        <div class="hero-title">
+          <h2>Räddningsmissionen</h2>
+        </div>
+      </div>
+
+    </section>
+
+     <!-- Info content -->
+     <section id="info" class="info-section">
+       <p>hejejej</p>
+    </section>
+
+
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -20,9 +95,9 @@
         WebGL builds are not supported on mobile devices.
       </div>
       <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
+        <!-- <div id="unity-webgl-logo"></div> -->
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Sammanslaget22</div>
+        <!-- <div id="unity-build-title"></div> -->
       </div>
     </div>
     <script>
@@ -84,5 +159,6 @@
       };
       document.body.appendChild(script);
     </script>
+     <script src="WebAssets/main.js"></script>
   </body>
 </html>
